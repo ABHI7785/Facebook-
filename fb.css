@@ -1,0 +1,390 @@
+body{
+    margin: 0 auto; padding:0 auto ;
+}
+
+.header{
+    background:#3b5998 ;
+    width: 100%;
+    height: 85px;
+    float: left;
+}
+.logo {
+    width: 50%;
+    padding-top: 26px;
+    float: left;
+  }
+.login{
+    width: 50%;
+    float: right;
+}
+
+.logo_text {
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 139px;
+    
+  }
+
+  .login_text {
+    font-size: 13px;
+    color: #fff;
+    font-family: sans-serif;
+
+  }
+  .login_table {
+    padding-top: 8px;
+    margin-left: 136px;
+  }
+  .cta1 {
+    height: 21px;
+    width: 129%;
+    color: #fff;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    cursor: pointer;
+  }
+
+  .cta1:hover{
+    background-color: red;
+  }
+
+  .forgot {
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 14px;
+  }
+  .body_section{
+    float: left;
+    width: 100%;
+    background: linear-gradient(white ,#d3d8e8);
+    height: 650px;
+  }
+  .body_one{
+    float: left;
+    width: 50%;
+  }
+
+  .body_two{
+    float: right;
+    width: 50%;
+  }
+
+  .body_one p {
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 131px;
+    color: blueviolet;
+    font-family: sans-serif;
+    padding-top: 33px;
+  }
+
+  .body_one img {
+    width: 64%;
+    height: 200px;
+    padding-left: 124px;
+    padding-top: 32px;
+  }
+
+  .body_two h3 {
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-left: 133px;
+    font-family: sans-serif;
+  }
+
+  .body_two p {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 138px;
+    
+  }
+
+  .form_parts {
+    float: left;
+    width: 100%;
+  }
+
+  #fname {
+    width: 51%;
+    height: 28px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 1px solid cadetblue;
+    border-radius: 8px;
+    margin-left: 138px;
+  }
+  .form_p1 {
+    float: left;
+    width: 50%;
+  }
+
+  .form_p2 {
+    float: right;
+    width: 50%;
+  }
+
+  #sname {
+    width: 51%;
+    height: 28px;
+    border-radius: 6px;
+    border: 1px solid brown;
+    font-family: sans-serif;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .part_two{
+    float: left;
+    width: 100%;
+  }
+
+  #num {
+    width: 54%;
+    height: 28px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 138px;
+    border-radius: 6px;
+    border: 1px solid brown;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+
+
+  .part_three{
+    float: left;
+    width: 100%;
+  }
+
+
+  #pass {
+    width: 54%;
+    height: 28px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 138px;
+    border-radius: 6px;
+    border: 1px solid brown;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+
+  .part_four{
+    float: left;
+    width: 100%;
+  }
+  
+
+  
+  
+  .four{
+    float: right;
+    width: 25%;
+  }
+
+  .part_four p {
+    font-size: 20px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-left: 144px;
+    padding-top: 5px;
+  }
+
+  #date {
+    width: 27%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 25px;
+    padding-left: 7px;
+    margin-left: 148px;
+   
+  }
+  .one {
+    float: left;
+    width: 25%;
+    margin-top: -8px;
+  }
+
+  .two {
+    float: left;
+    width: 25%;
+    margin-top: -8px;
+  }
+
+  #month {
+    margin-left: 40px;
+    width: 33%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 25px;
+    padding-left: 7px;
+  }
+
+  #year {
+    margin-left: -59px;
+    width: 35%;
+    height: 26px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 7px;
+  }
+
+  .three {
+    float: left;
+    width: 25%;
+    margin-top: -8px;
+  }
+  .fa.fa-question-circle {
+    margin-left: -150px;
+    margin-top: -4px;
+  }
+
+
+  .gender_sec{
+    float: left;
+    width: 100%;
+  }
+
+
+
+  .gone {
+    float: left;
+    width: 25%;
+    margin-left: 71px;
+  }
+  .gtwo {
+    float: left;
+    width: 25%;
+    margin-left: -19px;
+    
+  }
+  .gthree {
+    float: left;
+    width: 25%;
+    
+  }
+  .gfour {
+    float: left;
+    width: 25%;
+    
+  }
+  .gender_sec p {
+    font-size: 20px;
+    color: gray;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-left: 144px;
+    padding-top: 5px;
+  }
+
+
+  .male {
+    margin-left: -2px;
+    font-family: sans-serif;
+  }
+  #male {
+    margin-left: 79px;
+  }
+  .female {
+    margin-left: -3px;
+    font-family: sans-serif;
+  }
+  #custom {
+    margin-left: -74px;
+  }
+  .custom {
+    font-family: sans-serif;
+    margin-left: -5px;
+  }
+
+  .terms{
+    float: left;
+    width: 100%;
+  }
+
+  .terms p {
+    font-family: sans-serif;
+    padding-left: 142px;
+    padding-top: 8px;
+    text-align: left;
+    line-height: 24px;
+  }
+  .new {
+    margin-left: 3px;
+  }
+
+  .sign{
+    float: left;
+    width: 100%;
+  }
+
+  .cta2 {
+    width: 28%;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid aqua;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 229px;
+    cursor: pointer;
+  }
+  .sign p {
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-left: 163px;
+    color: brown;
+  }
+  .footer{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  li {
+    display: inline;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 6px;
+    
+   
+  }
+
+  .lan {
+    padding-left: 147px;
+    color: blue;
+  }
+
+  
+
+  .process {
+    color: blue;
+    padding-left: 145px;
+  }
+
+  .proces {
+    color: blue;
+    padding-left: 144px;
+  }
+
+  .hr {
+    width: 64%;
+    border-top: 1px dotted;
+    margin-left: 151px;
+  }
+
+  .footer h5 {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: gray;
+    padding-left: 150px;
+  }
